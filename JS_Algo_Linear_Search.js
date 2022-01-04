@@ -2,13 +2,12 @@
 function search(arr, n, x){
     let i;
 
-    for(i=0; i<n; i++){
-        if(arr[i] == x){
+    for(i=0; i<n; i++)
+        if(arr[i] == x)
             return i;
-        }
         return -1;
     }
-}
+
 
 let arr = [1,2,3,4,5,6,7,8,8,9];
 let n = arr.length;
